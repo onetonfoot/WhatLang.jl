@@ -1,0 +1,9 @@
+name = "WhatLang"
+uuid = "40a08253-6934-4699-b6ab-eb56a1a7a665"
+authors = ["onetonfoot <onetonfoot@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+CBinding = "d43a6710-96b8-4a2d-833c-c424785e5374"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

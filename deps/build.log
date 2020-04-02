@@ -1,0 +1,12 @@
+   Compiling libc v0.2.68
+   Compiling getrandom v0.1.14
+   Compiling cfg-if v0.1.10
+   Compiling proc-macro-hack v0.5.15
+   Compiling autocfg v1.0.0
+   Compiling hashbrown v0.7.1
+   Compiling const-random-macro v0.1.8
+   Compiling const-random v0.1.8
+   Compiling ahash v0.3.2
+   Compiling whatlang v0.7.3
+   Compiling whatlang-bindings v0.1.0 (/home/dom/Code/WhatLang/deps/whatlang-bindings)
+    Finished release [optimized] target(s) in 3.40s
