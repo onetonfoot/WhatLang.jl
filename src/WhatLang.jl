@@ -9,6 +9,6 @@ include(deps_file)
 check_deps()
 include("c_api.jl")
 
-export detect, detect_lang
+export detect, detect_lang, detect_script , Lang, Script
 
 end # module

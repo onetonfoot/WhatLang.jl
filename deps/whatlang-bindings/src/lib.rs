@@ -30,7 +30,6 @@ pub extern "C" fn detect(ptr: *const c_char, cinfo: &mut CInfo) -> i32 {
                     cinfo.lang = info.lang().to_int();
                     cinfo.script = info.script().to_int();
                     cinfo.confidence = info.confidence();
-                    println!("INFO {:?}", cinfo);
                     return 0;
                 }
                 None => {
