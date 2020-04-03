@@ -1,2 +1,4 @@
 deps/libwhatlanglib.so
 deps/build.log
+deps/.rustc_info.json
+deps/release
