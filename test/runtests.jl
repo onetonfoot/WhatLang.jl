@@ -19,8 +19,17 @@ end
     @test script == Script(0)
 end
 
+@testset "whitelist" begin
+    text = "Hello my name is Domininc." 
+    @test_nowarn detect_lang(text, whitelist = [Lang(1), Lang(2)])
+end
 
-# TODO Benchmark
+@testset "edge cases" begin
+
+    # handles embedded nulls
+    @test_nowarn detect_lang("akds\0jlas\0kadsfkjl")
+
+end
 # text = "Hello how are you doing? It would be great if this rust library would work! Oh my god"^100000;
-# @time r = detect(text)
+# @benchmark detect(text)
 # @time r = detect_lang(text)

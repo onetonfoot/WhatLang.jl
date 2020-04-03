@@ -7,7 +7,7 @@ impl ToInt for Lang {
     }
 }
 
-fn lang_from_int(i: i32) -> Lang {
+pub fn lang_from_int(i: &i32) -> Lang {
     match i {
         0 => Lang::Epo,
         1 => Lang::Eng,
